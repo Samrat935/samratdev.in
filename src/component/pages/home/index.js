@@ -62,7 +62,7 @@ function HomeLayout() {
                             <p>Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</p>
                         </div>
                         <div className="download-resume">
-                            <a href="" className="btn btn-secondary">Download Resume</a>
+                            <a href="/" className="btn btn-secondary">Download Resume</a>
                         </div>
                     </div>
                     <div className="col-sm-6 col-ms-6 col-lg-6">
