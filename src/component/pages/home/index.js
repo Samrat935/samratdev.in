@@ -3,35 +3,35 @@ import './home.css';
 function HomeLayout() {
     return (
         <>
-            <div className="container">
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <div className="container-fluid">
-                        <a className="navbar-brand" href="/home">Samrat <span>Samanta</span></a>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="/home">Home</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="/contact">Contact</a>
-                                </li>
-
-                                <li className="nav-item">
-                                    <a className="nav-link" href="/portfolio">Portfolio</a>
-                                </li>
-                                <li>
-                                <a className="nav-link" href="/blog">Blog</a>
+        <div className="container">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="/home">Samrat <span>Samanta</span></a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="/home">Home</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/contact">Contact</a>
                             </li>
 
-                        </ul>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                            <a className="nav-link" href="/blog">Blog</a>
+                        </li>
 
-                    </div>
-                    </div>
-                </nav>
-    </div >
+                    </ul>
+
+                </div>
+                </div>
+            </nav>
+        </div >
     <div className="container page-content">
         <div className="page-header">
             <div className="row">
@@ -67,11 +67,11 @@ function HomeLayout() {
                     </div>
                     <div className="col-sm-6 col-ms-6 col-lg-6">
                         <ul className="info-list">
-                            <li><span className="title">Age</span><span className="value">29</span></li>
-                            <li><span className="title">Residence</span><span className="value">USA</span></li>
-                            <li><span className="title">Address</span><span className="value">Los Angeles, USA</span></li>
-                            <li><span className="title">e-mail</span><span className="value"><a href="mailto:email@example.com">email@example.com</a></span></li>
-                            <li><span className="title">Phone</span><span className="value">+0123 123 456 789</span></li>
+                            <li><span className="title">Age</span><span className="value">26</span></li>
+                            <li><span className="title">Residence</span><span className="value">INDIA</span></li>
+                            <li><span className="title">Address</span><span className="value">Kolkata, WB</span></li>
+                            <li><span className="title">e-mail</span><span className="value"><a href="mailto:samantasamrat1998@gmail.com">samantasamrat1998@gmail.com</a></span></li>
+                            <li><span className="title">Phone</span><span className="value">+8777728953</span></li>
                             <li><span className="title">Freelance</span><span className="value available">Available</span></li>
                           </ul>
                     </div>
@@ -79,7 +79,7 @@ function HomeLayout() {
         </div>
     </div>
     <footer>
-        <div className="copyrights">© 2020 All rights reserved. Material template by LMPixels</div>
+        <div className="copyrights">© 2024 All rights reserved by samratdev.in</div>
       </footer>
         </>
     );
