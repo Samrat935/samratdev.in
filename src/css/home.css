@@ -10,7 +10,7 @@ body {
 .container {
     max-width: 1032px;
 }
-.navbar-brand span,
+/* .navbar-brand span,
 .title h3 span {
     color: #2eca7f;
 }
@@ -19,6 +19,21 @@ a {
 }
 a:hover {
     color: #ff9800;
+} */
+.navbar-brand {
+    margin: 38px 0 0;
+    color: #49515d !important;
+    font-size: 30px;
+    font-weight: 500;
+}
+.navbar-brand span{
+    color: #2eca7f;
+}
+.nav-link {
+    margin: 38px 0 0;
+    color: #91979f !important;
+    font-size: 18px;
+    font-weight: 400;
 }
 .page-content {
     background-color:#fff;
@@ -70,9 +85,9 @@ a:hover {
     margin: 0;
    
 }
-.navbar {
+/* .navbar {
     background-color: transparent !important;
-}
+} */
 .page-about-content {
     padding: 20px 50px 50px 50px;
     background-color: #fff;

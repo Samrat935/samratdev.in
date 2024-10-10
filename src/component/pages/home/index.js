@@ -3,7 +3,7 @@ import React from "react";
 function HomeLayout() {
     return (
         <>
-        <div className="container">
+        {/* <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/home">Samrat <span>Samanta</span></a>
@@ -31,7 +31,7 @@ function HomeLayout() {
                 </div>
                 </div>
             </nav>
-        </div >
+        </div > */}
     <div className="container page-content">
         <div className="page-header">
             <div className="row">
